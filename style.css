@@ -53,6 +53,7 @@ a.split {
   color: #414360;
   text-align: center;
 }
+
 .container {
   background-image: linear-gradient(#f7f7ff, #d5d6f5);
   height: 800px;
@@ -130,7 +131,7 @@ a.split {
   border: #8c90e0;
 }
 .bgimg {
-  background-image: url("img/spiro.svg");
+  background-image: url("svg/spiro.svg");
   height: 348px;
   width: 635px;
   background-repeat: no-repeat;
