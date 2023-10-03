@@ -3,8 +3,7 @@
 
 Routing and navigation for your React Native apps.
 
-Documentation can be found at reactnavigation.org.
-
+Documentation can be found at [reactnavigation.org](https://reactnavigation.org/).
 
 ## Tech Stack
 
