@@ -130,6 +130,19 @@ a.split {
   padding: 6px;
   color: black;
 }
+.downarrow {
+  height: 15px;
+  margin-top: 15px;
+  width: 18px;
+}
+
+.github_link {
+  height: 19px;
+  width: 18px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 15px;
+}
 
 .search-img {
   height: 22px;
@@ -322,7 +335,9 @@ a.split {
 }
 
 @media (max-width: 996px) {
-  .navbar_link {
+  .navbar_link,
+  .downarrow,
+  .github_link {
     display: none;
   }
 }
