@@ -26,6 +26,7 @@ a {
   background-color: white;
   padding: 10px;
   position: fixed;
+  z-index: 1;
 }
 
 .header a {
@@ -48,6 +49,7 @@ a.split {
 
 .logo {
   float: left;
+  height: 40px;
 }
 
 #rn {
@@ -129,7 +131,7 @@ a.split {
   color: black;
 }
 
-.searchbox img {
+.search-img {
   height: 22px;
   margin-top: 3px;
 }
@@ -149,6 +151,7 @@ a.split {
   padding-bottom: 1rem;
   width: 100%;
   align-items: center;
+  padding: 13rem 3rem 0rem 3rem;
   justify-content: center;
 }
 
@@ -176,12 +179,24 @@ a.split {
   border-radius: 1rem;
   color: #414360;
   padding: 3rem 2rem;
+  position: relative;
+  background-color: #f7f7ff;
+  min-width: 442px;
+}
+
+.secondary_gray {
+  color: #d5d6f5;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #f7f7ff;
 }
 
 .react_nav p {
   font-weight: bold;
   padding: 1.5rem 1rem;
   font-size: 1.4rem;
+  position: relative;
 }
 
 .react_nav div {
@@ -191,6 +206,7 @@ a.split {
   padding: 13px 10px;
   border-radius: 10px;
   display: inline-block;
+  position: relative;
 }
 
 .read_doc {
@@ -223,7 +239,7 @@ a.split {
 
 .block2 {
   display: flex;
-  padding: 6rem 0;
+  padding: 6rem 3rem;
   background-color: #25292e;
   align-items: center;
   justify-content: center;
